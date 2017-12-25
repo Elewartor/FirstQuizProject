@@ -6,20 +6,20 @@ public class Level {
     private int emojiId_2;
     private int emojiId_3;
     private String trueAnswer;
-    private String failAnswer_1;
-    private String failAnswer_2;
-    private String failAnswer_3;
-    private boolean levelStatus;
+    private String falseAnswer_1;
+    private String falseAnswer_2;
+    private String falseAnswer_3;
+    private int levelStatus;
 
-    public Level(int id, int emojiId_1, int emojiId_2, int emojiId_3, String trueAnswer, String failAnswer_1, String failAnswer_2, String failAnswer_3, boolean levelStatus) {
+    public Level(int id, int emojiId_1, int emojiId_2, int emojiId_3, String trueAnswer, String falseAnswer_1, String falseAnswer_2, String falseAnswer_3, int levelStatus) {
         this.id = id;
         this.emojiId_1 = emojiId_1;
         this.emojiId_2 = emojiId_2;
         this.emojiId_3 = emojiId_3;
         this.trueAnswer = trueAnswer;
-        this.failAnswer_1 = failAnswer_1;
-        this.failAnswer_2 = failAnswer_2;
-        this.failAnswer_3 = failAnswer_3;
+        this.falseAnswer_1 = falseAnswer_1;
+        this.falseAnswer_2 = falseAnswer_2;
+        this.falseAnswer_3 = falseAnswer_3;
         this.levelStatus = levelStatus;
     }
 
@@ -43,19 +43,19 @@ public class Level {
         return trueAnswer;
     }
 
-    public String getFailAnswer_1() {
-        return failAnswer_1;
+    public String getFalseAnswer_1() {
+        return falseAnswer_1;
     }
 
-    public String getFailAnswer_2() {
-        return failAnswer_2;
+    public String getFalseAnswer_2() {
+        return falseAnswer_2;
     }
 
-    public String getFailAnswer_3() {
-        return failAnswer_3;
+    public String getFalseAnswer_3() {
+        return falseAnswer_3;
     }
 
-    public boolean isLevelStatus() {
+    public int getLevelStatus() {
         return levelStatus;
     }
 }

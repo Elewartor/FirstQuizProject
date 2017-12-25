@@ -52,7 +52,7 @@ public class LevelsDataBase extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         return db.rawQuery( "select * from "+LEVELS_TABLE_NAME+" where id= "+COLUMN_ID, null );
     }
-    public Cursor getAllData(int id) {
+    public Cursor getAllData() {
         SQLiteDatabase db = this.getReadableDatabase();
         return db.rawQuery( "select * from " +LEVELS_TABLE_NAME, null );
     }
