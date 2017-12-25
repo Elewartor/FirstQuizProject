@@ -50,7 +50,10 @@ public class LevelsDataBase extends SQLiteOpenHelper {
     // Метод getRowById повертає рядок типу (курсор), викликаними по id.
     public Cursor getRowById(int id) {
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor res =  db.rawQuery( "select * from contacts where id="+COLUMN_ID+"", null );
-        return res;
+        return db.rawQuery( "select * from "+LEVELS_TABLE_NAME+" where id= "+COLUMN_ID, null );
+    }
+    public Cursor getAllData(int id) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        return db.rawQuery( "select * from " +LEVELS_TABLE_NAME, null );
     }
 }
