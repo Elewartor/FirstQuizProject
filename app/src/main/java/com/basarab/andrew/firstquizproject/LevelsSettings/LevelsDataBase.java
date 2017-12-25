@@ -47,8 +47,8 @@ public class LevelsDataBase extends SQLiteOpenHelper {
         onCreate(sqLiteDatabase);
     }
 
-    // Метод повертає курсор зі всіма даними викликаними по id
-    public Cursor getData(int id) {
+    // Метод getRowById повертає рядок типу (курсор), викликаними по id.
+    public Cursor getRowById(int id) {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor res =  db.rawQuery( "select * from contacts where id="+COLUMN_ID+"", null );
         return res;
