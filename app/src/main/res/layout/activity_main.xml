@@ -9,67 +9,63 @@
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="0dp"
-        android:layout_height="128dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="168dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/bun_play"
-        android:layout_width="128dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="24dp"
-        android:text="Play"
-        android:background="@color/color700Cyan"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/videoView" />
-
-    <Button
-        android:id="@+id/bun_shop"
-        android:layout_width="128dp"
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_width="168dp"
         android:layout_height="100dp"
         android:layout_marginTop="24dp"
         android:background="@color/color700Cyan"
-        android:text="Shop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        android:elevation="6dp"
+        android:onClick="goToPlayActivity"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bun_play" />
+        app:layout_constraintTop_toBottomOf="@+id/videoView"
+        app:srcCompat="@drawable/play_icon" />
 
-    <Button
-        android:id="@+id/bun_reklama"
-        android:layout_width="128dp"
+    <ImageButton
+        android:id="@+id/btn_shop"
+        android:layout_width="168dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="49dp"
         android:layout_marginTop="24dp"
-        android:text="Video"
         android:background="@color/color700Cyan"
-        app:layout_constraintBottom_toTopOf="@+id/adView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        android:elevation="6dp"
+        android:onClick="goToShopLayout"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bun_shop" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_play"
+        app:srcCompat="@drawable/play_icon" />
 
-    <!--<com.google.android.gms.ads.AdView-->
-        <!--android:id="@+id/adView"-->
-        <!--android:layout_width="319dp"-->
-        <!--android:layout_height="50dp"-->
-        <!--android:layout_marginTop="51dp"-->
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintHorizontal_bias="0.597"-->
-        <!--app:layout_constraintLeft_toLeftOf="parent"-->
-        <!--app:layout_constraintRight_toRightOf="parent"-->
-        <!--app:layout_constraintTop_toBottomOf="@+id/bun_reklama" />-->
+    <ImageButton
+        android:id="@+id/btn_video"
+        android:layout_width="168dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/color700Cyan"
+        android:elevation="6dp"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_shop"
+        app:srcCompat="@drawable/play_icon" />
+
+
+    <!--<com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bun_reklama" /> -->
 
 </android.support.constraint.ConstraintLayout>
