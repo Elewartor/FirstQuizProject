@@ -2,16 +2,16 @@ package com.basarab.andrew.firstquizproject.LevelsSettings;
 
 public class Level {
     private int id;
-    private int emojiId_1;
-    private int emojiId_2;
-    private int emojiId_3;
+    private String emojiId_1;
+    private String emojiId_2;
+    private String emojiId_3;
     private String trueAnswer;
     private String falseAnswer_1;
     private String falseAnswer_2;
     private String falseAnswer_3;
     private int levelStatus;
 
-    public Level(int id, int emojiId_1, int emojiId_2, int emojiId_3, String trueAnswer, String falseAnswer_1, String falseAnswer_2, String falseAnswer_3, int levelStatus) {
+    public Level(int id, String emojiId_1, String emojiId_2, String emojiId_3, String trueAnswer, String falseAnswer_1, String falseAnswer_2, String falseAnswer_3, int levelStatus) {
         this.id = id;
         this.emojiId_1 = emojiId_1;
         this.emojiId_2 = emojiId_2;
@@ -27,15 +27,15 @@ public class Level {
         return id;
     }
 
-    public int getEmojiId_1() {
+    public String getEmojiId_1() {
         return emojiId_1;
     }
 
-    public int getEmojiId_2() {
+    public String getEmojiId_2() {
         return emojiId_2;
     }
 
-    public int getEmojiId_3() {
+    public String getEmojiId_3() {
         return emojiId_3;
     }
 

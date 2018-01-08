@@ -1,5 +1,6 @@
 package com.basarab.andrew.firstquizproject.LevelsSettings;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -33,8 +34,8 @@ public class LevelsDataBase extends SQLiteOpenHelper {
         * Назва талиці - LEVELS_TABLE_NAME - levels*/
         sqLiteDatabase.execSQL(
                 "create table "+LEVELS_TABLE_NAME+
-                        "("+COLUMN_ID+" integer, "
-                        +COLUMN_EMOJI_1+" integer, "+COLUMN_EMOJI_2+" integer,"+COLUMN_EMOJI_3+" integer, "
+                        "("+COLUMN_ID+" integer primary key autoincrement, "
+                        +COLUMN_EMOJI_1+" text, "+COLUMN_EMOJI_2+" text,"+COLUMN_EMOJI_3+" text, "
                         +COLUMN_TRUE_ANSWER+" text, "
                         +COLUMN_FALSE_ANSWER_1+" text, "+COLUMN_FALSE_ANSWER_2+" text, "+COLUMN_FALSE_ANSWER_3+" text, "
                         +COLUMN_LEVELSTATUS+" integer)"
@@ -56,4 +57,21 @@ public class LevelsDataBase extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         return db.rawQuery( "select * from " +LEVELS_TABLE_NAME, null );
     }
+
+    public void addRowData(String em1, String em2, String em3, String trueAnswr, String falseAnswr1, String falseAnswr2, String falseAnswr3, int boolStatus){
+        SQLiteDatabase db = this.getReadableDatabase();
+        ContentValues cv = new ContentValues();
+
+        cv.put(COLUMN_EMOJI_1, em1);
+        cv.put(COLUMN_EMOJI_2, em2);
+        cv.put(COLUMN_EMOJI_3, em3);
+        cv.put(COLUMN_TRUE_ANSWER, trueAnswr);
+        cv.put(COLUMN_FALSE_ANSWER_1, falseAnswr1);
+        cv.put(COLUMN_FALSE_ANSWER_2, falseAnswr2);
+        cv.put(COLUMN_FALSE_ANSWER_3, falseAnswr3);
+        cv.put(COLUMN_LEVELSTATUS, boolStatus);
+
+        db.insert(LEVELS_TABLE_NAME,null, cv);
+    }
+
 }

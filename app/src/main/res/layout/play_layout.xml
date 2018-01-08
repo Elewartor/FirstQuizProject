@@ -57,7 +57,7 @@
         android:text="Повернути назад"
         app:layout_constraintBottom_toTopOf="@+id/btn_answer_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_hint_2" />
 
@@ -90,7 +90,6 @@
         android:text="Повернути назад"
         app:layout_constraintBottom_toTopOf="@+id/btn_hint_3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_answer_2" />
 

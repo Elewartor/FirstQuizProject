@@ -22,9 +22,9 @@ public class Connector {
             levList.add(new Level(
                     cursor.getInt(cursor.getColumnIndex(LevelsDataBase.COLUMN_ID)),
 
-                    cursor.getInt(cursor.getColumnIndex(LevelsDataBase.COLUMN_EMOJI_1)),
-                    cursor.getInt(cursor.getColumnIndex(LevelsDataBase.COLUMN_EMOJI_2)),
-                    cursor.getInt(cursor.getColumnIndex(LevelsDataBase.COLUMN_EMOJI_3)),
+                    cursor.getString(cursor.getColumnIndex(LevelsDataBase.COLUMN_EMOJI_1)),
+                    cursor.getString(cursor.getColumnIndex(LevelsDataBase.COLUMN_EMOJI_2)),
+                    cursor.getString(cursor.getColumnIndex(LevelsDataBase.COLUMN_EMOJI_3)),
 
                     cursor.getString(cursor.getColumnIndex(LevelsDataBase.COLUMN_TRUE_ANSWER)),
 
