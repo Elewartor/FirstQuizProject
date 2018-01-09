@@ -45,7 +45,7 @@ public class FilmsLevels {
                 "Форест Гамп", "Невероятная жизнь Уолтера Митти", "Загадочная история Бенжамина Баттона", "Терминал", 0);
 
         levelsDataBase.addRowData("emoji_u1f468_200d_1f469_200d_1f467_200d_1f466", "emoji_u1f3e1", "emoji_u1f466_1f3fc",
-                "Сам дома", "Оптом дешевле", "Подарок на рождество", "Деннис-мучитель", 0);
+                "Сам удома", "Оптом дешевле", "Подарок на рождество", "Деннис-мучитель", 0);
 
         levelsDataBase.addRowData("emoji_u1f468_1f3fe", "emoji_u267f", "emoji_u1f9d4_1f3fb",
                 "1+1", "Жизнь прекрасна", "Пока не сыграл в ящик", "До встречи с тобой", 0);
@@ -56,7 +56,7 @@ public class FilmsLevels {
         levelsDataBase.addRowData("emoji_u1f9d1_1f3fb", "emoji_u1f932", "emoji_u2702",
                 "Эдвард руки ножницы", "Суини Тодд, демон-парикмахер с Флит Стрит", "Чарли и шоколадная фабрика", "Алиса в стране чудес", 0);
 
-        levelsDataBase.addRowData("emoji_u1f995", "emoji_u1f995", "emoji_u1f468_200d_1f467",
+        levelsDataBase.addRowData("emoji_u1f996", "emoji_u1f995", "emoji_u1f468_200d_1f467",
                         "Парк юрского периода", "Годзилла", "Кинг Конг", "Тихоокеанский рубеж", 0);
 
         levelsDataBase.addRowData("emoji_u1f57a_1f3fc", "emoji_u1f57a_1f3fd", "emoji_u1f57a_1f3fd",
@@ -101,7 +101,7 @@ public class FilmsLevels {
         levelsDataBase.addRowData("emoji_u1f468_1f3ff_200d_1f4bc", "emoji_u1f4bc", "emoji_u1f468_1f3fb_200d_1f4bc",
                 "Криминальное чтиво", "Джанго освобожденный", "Убить Билла", "Счастливое число слевина", 0);
 
-        levelsDataBase.addRowData("emoji_u1f4b8", "emoji_u1f3da", "emoji_u1f3da",
+        levelsDataBase.addRowData("emoji_u1f4b8", "emoji_u1f9d1_1f3fd", "emoji_u1f3da",
                 "Миллионер из трущоб", "Меня зовут Кхан", "Красавица из трущоб", "Город бога", 0);
 
         levelsDataBase.addRowData("emoji_u1f987", "emoji_u1f0cf", "emoji_u1f575_1f3fc_200d_2642",
@@ -131,7 +131,7 @@ public class FilmsLevels {
         levelsDataBase.addRowData("emoji_u1f30c", "emoji_u1f98a", "emoji_u1f6f8",
                 "Стражи галактики", "Звёздные войны", "Стартрек", "Звездный путь", 0);
 
-        levelsDataBase.addRowData("emoji_u1f19a", "emoji_u1f19a", "emoji_u1f47d",
+        levelsDataBase.addRowData("emoji_u1f47e", "emoji_u1f19a", "emoji_u1f47d",
                 "Чужой против Хищника", "Прометей", "Нечто", "Обитель зла", 0);
 
         levelsDataBase.addRowData("emoji_u26b0", "emoji_u1f9db_1f3fb_200d_2642", "emoji_u1f5e1",
@@ -158,8 +158,8 @@ public class FilmsLevels {
         levelsDataBase.addRowData("emoji_u1f355", "emoji_u1f9d1_1f3fd", "emoji_u1f436",
                 "Скуби ду", "Гарфилд", "Третий лишний", "Кошки против собак", 0);
 
-//Тутка поремонтувати треба другий емоджі!
-        levelsDataBase.addRowData("emoji_u1f98f", "emoji_u1f987", "emoji_u1f987",
+
+        levelsDataBase.addRowData("emoji_u1f98f", "emoji_u1f9d1_1f3fb", "emoji_u1f987",
                 "Эйс Вентура", "Доктор Дулиттл", "Брюс Всемогущий", "Пингвины мистера Поппера", 0);
 
         levelsDataBase.addRowData("emoji_u1f3dc", "emoji_u1f4d6", "emoji_u1f9d4_1f3ff",
