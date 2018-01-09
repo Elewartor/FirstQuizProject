@@ -8,11 +8,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class LevelsDataBase extends SQLiteOpenHelper {
     // Ім'я БД
-    public static final String DATABASE_NAME = "LevelsDB";
+    public static final String DATABASE_NAME = "LevelsData2";
     // Назва таблиці
     public static final String LEVELS_TABLE_NAME = "levels";
     // Стовпці таблиці
-    public static final String COLUMN_ID = "id";
+    public static final String COLUMN_ID = "_id";
     public static final String COLUMN_EMOJI_1 = "emoji_1";
     public static final String COLUMN_EMOJI_2 = "emoji_2";
     public static final String COLUMN_EMOJI_3 = "emoji_3";
@@ -72,6 +72,16 @@ public class LevelsDataBase extends SQLiteOpenHelper {
         cv.put(COLUMN_LEVELSTATUS, boolStatus);
 
         db.insert(LEVELS_TABLE_NAME,null, cv);
+        db.close();
+    }
+
+    public void updateStatus(int id, int value){
+        SQLiteDatabase db = this.getReadableDatabase();
+        ContentValues cv = new ContentValues();
+
+        cv.put(COLUMN_LEVELSTATUS, value);
+
+        db.update(LEVELS_TABLE_NAME, cv, "_id="+id, null);
     }
 
 }

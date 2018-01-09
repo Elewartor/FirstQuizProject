@@ -11,6 +11,10 @@ public class Level {
     private String falseAnswer_3;
     private int levelStatus;
 
+    public void setLevelStatus(int levelStatus) {
+        this.levelStatus = levelStatus;
+    }
+
     public Level(int id, String emojiId_1, String emojiId_2, String emojiId_3, String trueAnswer, String falseAnswer_1, String falseAnswer_2, String falseAnswer_3, int levelStatus) {
         this.id = id;
         this.emojiId_1 = emojiId_1;
@@ -20,6 +24,7 @@ public class Level {
         this.falseAnswer_1 = falseAnswer_1;
         this.falseAnswer_2 = falseAnswer_2;
         this.falseAnswer_3 = falseAnswer_3;
+
         this.levelStatus = levelStatus;
     }
 
