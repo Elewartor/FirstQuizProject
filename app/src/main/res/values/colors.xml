@@ -7,5 +7,8 @@
     <color name="color700Cyan">#00b8d4</color>
     <color name="color50Cyan">#ddeefd</color>
     <color name="colorbuttons">#3e4445</color>
+    <color name="color400Cyan">#00e5ff</color>
+    <color name="color200Cyan">#18ffff</color>
+    <color name="color300Cyan">#4dd0e1</color>
 
 </resources>
