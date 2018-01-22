@@ -10,17 +10,18 @@
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView"
-        android:layout_width="432dp"
-        android:layout_height="175dp"
+        android:layout_width="642dp"
+        android:layout_height="257dp"
         android:src="@drawable/zastavka"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/btn_play"
-        android:layout_width="160dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="252dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
         android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:onClick="goToPlayActivity"
@@ -33,9 +34,9 @@
 
     <ImageButton
         android:id="@+id/btn_shop"
-        android:layout_width="160dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="252dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
         android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:onClick="goToShopLayout"
@@ -48,9 +49,9 @@
 
     <ImageButton
         android:id="@+id/btn_video"
-        android:layout_width="160dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="252dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
         android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:translationZ="2dp"
