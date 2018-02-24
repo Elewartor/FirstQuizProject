@@ -81,7 +81,7 @@ public class FilmsLevels {
                 "Гарри Поттер", "Ученик чародея", "Хроники Нарнии", "Перси Джексон и похититель молний", 0);
 
         levelsDataBase.addRowData("emoji_u1f9d1_1f3fb", "emoji_u1f41c", "emoji_u2b07",
-                "Человек муравей", "Фантастическая четверка", "Зеленый фонарь", "Хенкок", 0);
+                "Человек-муравей", "Фантастическая четверка", "Зеленый фонарь", "Хенкок", 0);
 
         levelsDataBase.addRowData("emoji_u1f575_1f3fb_200d_2642", "emoji_u1f46e_1f3fb_200d_2642", "emoji_u1f52b",
                 "Шерлок Холмс", "Лига выдающихся джентльменов", "Видок", "Ворон", 0);
@@ -158,7 +158,6 @@ public class FilmsLevels {
         levelsDataBase.addRowData("emoji_u1f355", "emoji_u1f9d1_1f3fd", "emoji_u1f436",
                 "Скуби ду", "Гарфилд", "Третий лишний", "Кошки против собак", 0);
 
-
         levelsDataBase.addRowData("emoji_u1f98f", "emoji_u1f9d1_1f3fb", "emoji_u1f987",
                 "Эйс Вентура", "Доктор Дулиттл", "Брюс Всемогущий", "Пингвины мистера Поппера", 0);
 
@@ -203,6 +202,97 @@ public class FilmsLevels {
 
         levelsDataBase.addRowData("emoji_u1f93c_1f3fb_200d_2642", "emoji_u1f4b7", "emoji_u1f468_1f3fb_200d_2696",
                 "Охотник на лис", "Американская история Икс", "Несломленный", "Префонтейн", 0);
+
+        levelsDataBase.addRowData("emoji_u1f9d4_1f3fc", "emoji_u1f528", "emoji_u1f308",
+                "Тор", "Человек-муравей", "Беовульф", "Стражи Галактики", 0);
+
+        levelsDataBase.addRowData("emoji_u1f469_1f3fc_200d_2695", "emoji_u1f480", "emoji_u1f465",
+                "Коматозники", "Двухсотлетний человек", "Отзвуки эха", "В постели с врагом", 0);
+
+        levelsDataBase.addRowData("emoji_u1f3b2", "emoji_u1f98f", "emoji_u1f405",
+                "Джуманджи", "Лемони Сникет: 33 несчастья", "Бегущий по лезвию 2049", "Дюнкерк", 0);
+
+        levelsDataBase.addRowData("emoji_u1f9d1_1f3fc", "emoji_u1f3a7", "emoji_u1f697",
+                "Малыш на драйве", "Типа крутые легавые", "Медальон", "Контрабанда", 0);
+
+        levelsDataBase.addRowData("emoji_u1f9d4_1f3fb", "emoji_u1f3f9", "emoji_u1f3e1",
+                "Дикий", "Чудо на Гудзоне", "Разрушение", "Американский снайпер", 0);
+
+        levelsDataBase.addRowData("emoji_u1f4d4", "emoji_u1f46c", "emoji_u1f48d",
+                "Женись на мне, чувак", "Superнянь", "Без тормозов", "До свидания там, наверху", 0);
+
+        levelsDataBase.addRowData("emoji_u1f47a", "emoji_u1f5e1", "emoji_u1f51e",
+                "Пила", "Отчим", "Хэллоуин", "Синистер", 0);
+
+        levelsDataBase.addRowData("emoji_u1f46e_1f3fe_200d_2642", "emoji_u1f46e_1f3fc_200d_2642", "emoji_u1f9dd_1f3fb_200d_2640",
+                "Яркость", "Отряд самоубийц", "Хэнкок", "Машина войны", 0);
+
+        levelsDataBase.addRowData("emoji_u1f3de", "emoji_u1f9d4_1f3fc", "emoji_u1f198",
+                "Джунгли", "Синяя бездна", "Белый плен", "Погребенный заживо", 0);
+
+        levelsDataBase.addRowData("emoji_u1f64b_1f3fb_200d_2642", "emoji_u1f64b_1f3fc_200d_2640", "emoji_u1f6f8",
+                "Пассажиры", "Мир юрского периода", "Голодные игры: Сойка-пересмешница", "Чужой", 0);
+
+        levelsDataBase.addRowData("emoji_u1f301", "emoji_u1f64e_1f3fb_200d_2642", "emoji_u23ec",
+                "Субурбикон", "Охотники за сокровищами", "Красота по-американски", "Да здравствует Цезарь!", 0);
+
+        levelsDataBase.addRowData("emoji_u1f3dc", "emoji_u1f934_1f3fb", "emoji_u1f5e1",
+                "Принц Персии", "Пираты Карибского моря", "Кредо убийцы", "300 спартанцев", 0);
+
+        levelsDataBase.addRowData("emoji_u1f9d4_1f3fb", "emoji_u1f916", "emoji_u270a_1f3fb",
+                "Живая сталь", "Посылка", "Росомаха", "Я — легенда", 0);
+
+        levelsDataBase.addRowData("emoji_u1f473_1f3fd_200d_2640", "emoji_u1f42b", "emoji_u1f451",
+                "Диктатор", "Борат", "Интервью", "Братья из Гримсби", 0);
+
+        levelsDataBase.addRowData("emoji_u1f468_1f3fc", "emoji_u1f3f8", "emoji_u1f468_1f3fb",
+                "Борг/Макинрой", "Битва полов", "Очень плохие мамочки", "Удача Логана", 0);
+
+        levelsDataBase.addRowData("emoji_u1f422", "emoji_u1f400", "emoji_u1f355",
+                "Черепашки-ниндзя", "Человек-паук ", "Халк", "Дедпул и все все все", 0);
+
+        levelsDataBase.addRowData("emoji_u1f9d1_1f3fb", "emoji_u1f962", "emoji_u1f467_1f3fb",
+                "Пипец", "Люди Икс", "Слоёный торт", "Бланкмэн", 0);
+
+        levelsDataBase.addRowData("emoji_u1f916", "emoji_u2696", "emoji_u1f52b",
+                "Судья Дредд", "28 дней спустя", "Морской бой", "Патруль", 0);
+
+        levelsDataBase.addRowData("emoji_u0033_20e3", "emoji_u0030_20e3", "emoji_u0030_20e3",
+                "300 спартанцев", "Троя", "Александр", "Центурион ", 0);
+
+        levelsDataBase.addRowData("emoji_u1f329", "emoji_u1f499", "emoji_u1f9df_200d_2642",
+                "Виктор Франкенштейн", "Человек — швейцарский нож", "Дружба и никакого секса", "Невеста", 0);
+
+        levelsDataBase.addRowData("emoji_u1f3dc", "emoji_u1f480", "emoji_u1f480",
+                "Техасская резня бензопилой", "Дом 1000 трупов", "Пятница, 13-е", "Поворот не туда", 0);
+
+        levelsDataBase.addRowData("emoji_u2696", "emoji_u1f3d9", "emoji_u1f480",
+                "Судная ночь", "Уиджи: Доска Дьявола", "Коллекционер", "Астрал", 0);
+
+        levelsDataBase.addRowData("emoji_u1f68a", "emoji_u1f68a", "emoji_u1f68a",
+                "Метро", "Фантом", "Темный мир", "Гран Торино", 0);
+
+        levelsDataBase.addRowData("emoji_u1f47a", "emoji_u1f3e1", "emoji_u1f9df_200d_2640",
+                "Зловещие мертвецы", "Кошмар на улице Вязов", "Меня зовут Брюс", "Смертельная забава", 0);
+
+        levelsDataBase.addRowData("emoji_u1f916", "emoji_u1f3cd", "emoji_u1f52b",
+                "РобоКоп", "Вспомнить все", "Левиафан", "Хищник", 0);
+
+        levelsDataBase.addRowData("emoji_u1f3e0", "emoji_u1f465", "emoji_u1f463",
+                "Дом с паранормальными явлениями", "Одержимая", "Привидение", "Не грози южному централу, попивая сок у себя в квартале", 0);
+
+        levelsDataBase.addRowData("emoji_u1f934_1f3fb", "emoji_u1f5fd", "emoji_u1f9db_1f3fb_200d_2642",
+                "Президент Линкольн: Охотник на вампиров", "Блэйд", "Вампирша", "Другой мир: Пробуждение", 0);
+
+        levelsDataBase.addRowData("emoji_u271d", "emoji_u2694", "emoji_u1f9d4_1f3fb",
+                "Паломничество", "Выстрел в пустоту", "Война токов", "Любовь на века", 0);
+
+        levelsDataBase.addRowData("emoji_u0032_20e3", "emoji_u0032_20e3", "emoji_u1f52b",
+                "22 пули: Бессмертный", "Леон", "Бессмертные: Война миров", "Багровые реки", 0);
+
+
+
+
 
     }
 }
