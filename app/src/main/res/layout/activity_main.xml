@@ -4,39 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/a1"
     tools:context="com.basarab.andrew.firstquizproject.MainActivity">
 
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="0dp"
-        android:layout_height="168dp"
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="432dp"
+        android:layout_height="175dp"
+        android:src="@drawable/zastavka"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/btn_play"
-        android:layout_width="168dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/color700Cyan"
+        android:layout_width="160dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:onClick="goToPlayActivity"
+        android:translationZ="2dp"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/videoView"
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView"
         app:srcCompat="@drawable/play_icon" />
 
     <ImageButton
         android:id="@+id/btn_shop"
-        android:layout_width="168dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/color700Cyan"
+        android:layout_width="160dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:onClick="goToShopLayout"
+        android:translationZ="2dp"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -45,27 +48,17 @@
 
     <ImageButton
         android:id="@+id/btn_video"
-        android:layout_width="168dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="24dp"
-        android:background="@color/color700Cyan"
+        android:layout_width="160dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/color400Cyan"
         android:elevation="6dp"
+        android:translationZ="2dp"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_shop"
         app:srcCompat="@drawable/play_icon" />
 
-
-    <!--<com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="319dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="51dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.597"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bun_reklama" /> -->
 
 </android.support.constraint.ConstraintLayout>

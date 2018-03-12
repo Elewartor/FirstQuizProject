@@ -9,9 +9,6 @@ import android.view.View;
 import com.basarab.andrew.firstquizproject.MainActivity;
 import com.basarab.andrew.firstquizproject.R;
 
-/**
- * Created by FrostyGhost33 on 28.12.2017.
- */
 
 public class ShopActivity extends Activity{
     @Override
