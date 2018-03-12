@@ -134,7 +134,7 @@ public class PlayActivity extends Activity implements View.OnClickListener{
     }
 
     private void levelLose() {
-        if()
+        //if()
         Toast.makeText(this, "lose", Toast.LENGTH_LONG).show();
     }
 
