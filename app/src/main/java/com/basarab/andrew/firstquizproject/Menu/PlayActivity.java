@@ -25,6 +25,11 @@ public class PlayActivity extends Activity implements View.OnClickListener{
 
     private static final String SINGLE_LOAD = "SingleLoad";
 
+    private static final int ATTEMPTS_LIMIT = 3;
+    private static int CURRENT_LIMIT;
+
+    private static final int TIME_LIMIT = 30 * 1000;
+
     private ImageView emojiView_1;
     private ImageView emojiView_2;
     private ImageView emojiView_3;
@@ -129,6 +134,7 @@ public class PlayActivity extends Activity implements View.OnClickListener{
     }
 
     private void levelLose() {
+        if()
         Toast.makeText(this, "lose", Toast.LENGTH_LONG).show();
     }
 
