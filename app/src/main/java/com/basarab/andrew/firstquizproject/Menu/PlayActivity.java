@@ -172,7 +172,7 @@ public class PlayActivity extends Activity implements View.OnClickListener{
     }
 
     private void levelLose() {
-<<<<<<< HEAD
+
         countDownTimer.cancel();
 
         if(ATTEMPTS_LIMIT == ATTEMPTS_CURRENT)
@@ -189,10 +189,10 @@ public class PlayActivity extends Activity implements View.OnClickListener{
         }
 
         Toast.makeText(this, "lose", Toast.LENGTH_SHORT).show();
-=======
+
         //if()
         Toast.makeText(this, "lose", Toast.LENGTH_LONG).show();
->>>>>>> 4e24676c95d4bf1d34f48a7c12cf52130316c6f1
+
     }
 
     private void loadData(){
