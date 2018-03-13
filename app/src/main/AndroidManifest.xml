@@ -17,8 +17,11 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Menu.PlayActivity"  />
-        <activity android:name=".Menu.ShopActivity"  />
+        <activity android:name=".Menu.PlayActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Menu.ShopActivity"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>
