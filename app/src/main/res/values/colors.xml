@@ -10,5 +10,6 @@
     <color name="color400Cyan">#00e5ff</color>
     <color name="color200Cyan">#18ffff</color>
     <color name="color300Cyan">#4dd0e1</color>
+    <color name="B">#060606</color>
 
 </resources>

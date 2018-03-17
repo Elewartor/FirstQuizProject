@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Random;
 
 public class Connector {
@@ -40,9 +41,8 @@ public class Connector {
     }
 
     public Level getRandomLevel(){
-        Random random = new Random(0);
-        int rndVal = random.nextInt(levList.size());
-        return levList.get(rndVal);
+        Collections.shuffle(levList);
+        return levList.get(0);
     }
 
     private void updateToStatus(){

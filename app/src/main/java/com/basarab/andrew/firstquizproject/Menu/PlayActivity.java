@@ -134,7 +134,7 @@ public class PlayActivity extends Activity implements View.OnClickListener{
     }
 
     private void levelLose() {
-      //  if()
+        //if()
         Toast.makeText(this, "lose", Toast.LENGTH_LONG).show();
     }
 
@@ -147,7 +147,7 @@ public class PlayActivity extends Activity implements View.OnClickListener{
 
             SharedPreferences.Editor e = sp.edit();
             e.putBoolean("hasVisited2", true);
-                    e.commit();
-                    }
-                    }
-                    }
+            e.commit();
+        }
+    }
+}
