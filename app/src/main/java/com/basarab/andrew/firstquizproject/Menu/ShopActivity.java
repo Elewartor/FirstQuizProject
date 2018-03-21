@@ -45,9 +45,18 @@ public class ShopActivity extends Activity{
 
     }
 
+    // Викл кнопки "Назад".
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
     //Тимчасове рішення для тестування лайаутів
     public void onBack2 (View view){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
+
 }
