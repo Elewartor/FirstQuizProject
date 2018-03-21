@@ -10,7 +10,7 @@
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView"
-        android:layout_width="803dp"
+        android:layout_width="fill_parent"
         android:layout_height="323dp"
         android:layout_marginEnd="8dp"
         android:src="@drawable/zastavka"

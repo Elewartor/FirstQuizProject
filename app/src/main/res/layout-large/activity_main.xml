@@ -10,8 +10,8 @@
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView"
-        android:layout_width="642dp"
-        android:layout_height="257dp"
+        android:layout_width="fill_parent"
+        android:layout_height="245dp"
         android:src="@drawable/zastavka"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

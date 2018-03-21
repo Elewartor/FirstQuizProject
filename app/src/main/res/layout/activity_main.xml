@@ -12,14 +12,14 @@
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView"
         android:layout_width="fill_parent"
-        android:layout_height="160dp"
+        android:layout_height="165dp"
         android:src="@drawable/zastavka" />
 
     <ImageButton
         android:id="@+id/btn_play"
         android:layout_width="160dp"
         android:layout_height="90dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="40dp"
         android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:onClick="goToPlayActivity"
@@ -28,7 +28,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gifImageView"
-        app:srcCompat="@drawable/play_icon" />
+        app:srcCompat="@drawable/play_1" />
 
     <ImageButton
         android:id="@+id/btn_shop"
@@ -43,7 +43,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_play"
-        app:srcCompat="@drawable/play_icon" />
+        app:srcCompat="@drawable/play_2" />
 
     <ImageButton
         android:id="@+id/btn_video"
@@ -57,7 +57,18 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_shop"
-        app:srcCompat="@drawable/play_icon" />
+        app:srcCompat="@drawable/play_3" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="0dp"
+        android:text="REKLAMA"
+        android:background="@color/color700Cyan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
