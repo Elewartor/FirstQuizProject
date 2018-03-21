@@ -85,7 +85,7 @@ public class PlayActivity extends Activity implements View.OnClickListener{
     }
 
     private void playConnector(){
-//sds
+        
         String strAttemptsOut = String.valueOf(ATTEMPTS_CURRENT) + "/" + String.valueOf(ATTEMPTS_LIMIT);
         tvAttempts.setText(strAttemptsOut);
 
