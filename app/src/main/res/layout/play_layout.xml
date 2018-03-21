@@ -50,7 +50,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="68dp"
         android:layout_marginStart="68dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:background="@color/color200Cyan"
         android:elevation="6dp"
         android:onClick="onClick"
@@ -84,6 +84,7 @@
         android:id="@+id/btn_answer_3"
         android:layout_width="268dp"
         android:layout_height="64dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="68dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="8dp"
@@ -101,7 +102,6 @@
         android:id="@+id/btn_answer_4"
         android:layout_width="268dp"
         android:layout_height="64dp"
-        android:layout_marginBottom="12dp"
         android:layout_marginEnd="68dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="8dp"
@@ -109,11 +109,9 @@
         android:elevation="100dp"
         android:onClick="onClick"
         android:text="Повернути назад"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_answer_3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_answer_3" />
 
     <ImageView
         android:id="@+id/btn_hint_1"
@@ -164,10 +162,12 @@
         android:layout_height="47dp"
         android:layout_marginEnd="87dp"
         android:layout_marginStart="86dp"
+        android:layout_marginTop="2dp"
         android:background="@color/color700Cyan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_answer_4"
         app:srcCompat="@drawable/video_icon" />
 
     <TextView

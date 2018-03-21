@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:background="@drawable/a1"
     tools:context="com.basarab.andrew.firstquizproject.MainActivity">
 
-
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/gifImageView"
-        android:layout_width="368dp"
-        android:layout_height="149dp"
-        android:src="@drawable/zastavka"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/zastavka" />
 
     <ImageButton
         android:id="@+id/btn_play"
         android:layout_width="160dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
         android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:onClick="goToPlayActivity"
@@ -35,8 +33,8 @@
     <ImageButton
         android:id="@+id/btn_shop"
         android:layout_width="160dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
         android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:onClick="goToShopLayout"
@@ -50,8 +48,8 @@
     <ImageButton
         android:id="@+id/btn_video"
         android:layout_width="160dp"
-        android:layout_height="88dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
         android:background="@color/color400Cyan"
         android:elevation="6dp"
         android:translationZ="2dp"
