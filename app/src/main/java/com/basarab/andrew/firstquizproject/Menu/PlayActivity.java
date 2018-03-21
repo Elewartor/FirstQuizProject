@@ -86,7 +86,8 @@ public class PlayActivity extends Activity implements View.OnClickListener{
 
     private void playConnector(){
 
-        tvAttempts.setText(String.valueOf(ATTEMPTS_CURRENT) + "/" + String.valueOf(ATTEMPTS_LIMIT));
+        String strAttemptsOut = String.valueOf(ATTEMPTS_CURRENT) + "/" + String.valueOf(ATTEMPTS_LIMIT);
+        tvAttempts.setText(strAttemptsOut);
 
         Connector connector = new Connector(this);
         newLevel = connector.getRandomLevel();
