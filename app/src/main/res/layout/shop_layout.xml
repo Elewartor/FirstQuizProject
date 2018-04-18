@@ -13,7 +13,7 @@
         android:layout_width="165dp"
         android:layout_height="173dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/ic_fil"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,7 +22,8 @@
         android:id="@+id/shop_category2"
         android:layout_width="162dp"
         android:layout_height="179dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="8dp"
         android:src="@drawable/ic_ser"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -82,5 +83,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.33" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="164dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
 </android.support.constraint.ConstraintLayout>

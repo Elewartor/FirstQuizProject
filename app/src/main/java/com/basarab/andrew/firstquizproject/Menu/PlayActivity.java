@@ -6,9 +6,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
+import android.media.AudioManager;
+import android.media.SoundPool;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -56,6 +59,18 @@ public class PlayActivity extends Activity implements View.OnClickListener{
 
     private CountDownTimer countDownTimer;
 
+    //sound
+    final String LOG_TAG = "myLogs";
+    final int MAX_STREAMS = 3;
+
+    SoundPool sp;
+    int soundIdLose;
+    int soundIdWin;
+
+
+    int streamIDShot;
+    int streamIDExplosion;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,6 +97,13 @@ public class PlayActivity extends Activity implements View.OnClickListener{
         tvAttempts = findViewById(R.id.tvAttempts);
 
         playConnector();
+
+        //sound
+
+        sp = new SoundPool(MAX_STREAMS, AudioManager.STREAM_MUSIC, 0);
+
+        soundIdLose = sp.load(this, R.raw.lose, 1);
+        soundIdWin = sp.load(this, R.raw.win, 1);
     }
 
     private void playConnector(){
@@ -168,12 +190,17 @@ public class PlayActivity extends Activity implements View.OnClickListener{
         levelsDataBase.updateStatus(newLevel.getId(), 1);
         playConnector();
 
+        //
+        sp.play(soundIdWin, 0.1f, 0.1f, 0, 0, 1);
 
         Toast.makeText(this, "win", Toast.LENGTH_SHORT).show();
     }
 
     private void levelLose() {
         countDownTimer.cancel();
+
+        //
+        sp.play(soundIdLose, 0.1f, 0.1f, 0, 0, 1);
 
         if(ATTEMPTS_LIMIT == ATTEMPTS_CURRENT)
         {
